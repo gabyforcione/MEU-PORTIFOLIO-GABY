@@ -1,0 +1,107 @@
+/* Reset básico */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Seções principais */
+section {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Sobre mim */
+.sobre {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Habilidades */
+.habilidades ul {
+  list-style: none;
+  padding: 0;
+}
+
+.habilidades li {
+  background-color: #3498db;
+  color: white;
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Projetos */
+.projeto {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projeto img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* Botões */
+.btn {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #2ecc71;
+}
+
+/* Contato */
+.contato a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.contato a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 40px;
+}
